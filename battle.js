@@ -5,9 +5,8 @@ const takeNumber = function (bandName) {
     Write your awesome code here. See comments
     below for what should be returned.
     */
-   for (bandNumber = 1; bandNumber <= 1; bandNumber++) {
-       console.log(`${bandNumber}. ${bandName}`);
-    }
+   console.log(`${bandNumber}. ${bandName}`);
+   bandNumber++
 }
 const scum = takeNumber("Galactic Scum");
 // console.log(scum); -- This should print "1. Galactic Scum" in the console
